@@ -1,10 +1,10 @@
-#topnav {
+.topnav {
     background-color: rgb(188, 26, 26);;
     overflow: hidden ;
     position: sticky;
 }
 
-#topnavv a {
+.topnavv a {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -13,12 +13,12 @@
     font-size: 17px;
 }
 
-#topnav a:hover {
+.topnav a:hover {
     background-color: rgb(255, 180, 180);
     color : lightblue;
 }
 
-#topnav a.active {
+.topnav a.active {
     background-color: coral ;
     color: white;
 }
